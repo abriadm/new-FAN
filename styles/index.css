@@ -70,18 +70,17 @@
 /* Main */
 
 main {
-    width: 55%;
+    width: 75%;
     /* border: 1px solid black; */
-    margin: 7rem auto 0;
+    margin: 8rem auto 0;
 }
 
 /* Section 1 */
 .section-1 {
     display: flex;
     flex-direction: column;
-    margin-left: 4rem;
+    align-items: center;
     height: 50vh;
-    /* border: 1px solid black; */
 }
 
 .section-1 h1 {
@@ -97,7 +96,7 @@ main {
 
 .section-1 p {
     font-size: 20px;
-    margin-left: 3.5rem;
+    margin-right: 20rem;
     margin-top: 2rem;
 }
 
@@ -105,7 +104,8 @@ main {
 
 .section-2 {
     display: flex;
-    height: 50vh;
+    justify-content: center;
+    height: 40vh;
 }
 
 .description {
@@ -125,11 +125,11 @@ main {
 }
 
 .card-customer {
-    width: 50%;
+    width: fit-content;
 }
 
 .customer {
-    margin: 3rem 0 1.5rem 5rem;
+    margin: 3rem 0 1.5rem 2rem;
     width: fit-content;
     font-size: 20px;
     padding: 10px 20px;
@@ -146,7 +146,7 @@ main {
 }
 
 .rating {
-    margin: 2rem 0 0 8rem;
+    margin: 2rem 0 0 3rem;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -160,4 +160,157 @@ main {
 .rating h4 {
     font-weight: 500;
     font-size: 20px;
+}
+
+/* Section 3 */
+
+.section-3 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 h1 {
+    font-size: 55px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.card-branding {
+    width: 380px;
+    box-shadow: 1px 4px 15px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-branding .header {
+    padding: 20px 0 10px 15px ;
+    background-image: url(../assets/layanan/branding-design.png);
+}
+
+.card-social {
+    width: 380px;
+    box-shadow: 1px 4px 15px grey;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/layanan/social.png);
+    background-blend-mode: hard-light;
+}
+
+.card-social .header {
+    padding: 20px 0 10px 15px;
+}
+
+.card-social .card-links {
+    color: white;
+}
+
+.card-social .desc p {
+    color: #c5ff27;
+    text-shadow: 1px 2px 8px grey;
+}
+
+.card-website {
+    width: 380px;
+    box-shadow: 1px 4px 15px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-website .header {
+    padding: 20px 0 10px 15px ;
+    background-image: url(../assets/layanan/website.png);
+}
+
+.card-ads {
+    width: 380px;
+    box-shadow: 1px 4px 15px grey;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/layanan/ads.png);
+    background-blend-mode: hard-light;
+}
+
+.card-ads .header {
+    padding: 20px 0 10px 15px ;
+}
+
+.card-ads .header h2 {
+    font-size: 97px;
+}
+
+.card-ads .desc p {
+    color: #c5ff26;
+}
+
+.card-ads .card-links {
+    color: white;
+}
+
+.header h2 {
+    font-size: 49px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 2px 10px #635196;
+}
+
+.desc {
+    padding: 5px 1rem 10px 15px ;
+}
+
+.desc p {
+    color: #11293C;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.card-links img {
+    width: 2rem;
+}
+
+.card-links:hover {
+    background-color: #11293C;
+    color: #c5ff26;
+    text-shadow: 1px 2px 3px whitesmoke;
+}
+
+/* Section 4 */
+
+.section-4 {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4 h1 {
+    font-size: 55px;
+}
+
+.container-pelanggan {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8rem;
 }
