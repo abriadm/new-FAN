@@ -5,6 +5,7 @@ Masih tahap Development.
 ## Check-List
 - Navbar
 - HomePage
+- Footer
 
 ## Next
 - Layanan
