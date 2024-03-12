@@ -1,0 +1,163 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 0;
+    padding: 10px 2rem;
+    gap: 8.5rem;
+    width: max-content;
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+}
+
+.navbar img {
+    width: 69px;
+}
+
+.link-container {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.link-container a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.link-container a:hover {
+    color: #c5ff26;
+    text-shadow: 1px 1px 3px grey;
+}
+
+.link-container a.active {
+    color: #c5ff26;
+    text-shadow: 1px 1px 3px grey;
+}
+
+.btn-consult {
+    padding: 8px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+}
+
+.btn-consult:hover {
+    border: 1px solid #FFFBC7;
+    background-color: #1E415B;
+    color: #FFFBC7;
+}
+
+/* Main */
+
+main {
+    width: 55%;
+    /* border: 1px solid black; */
+    margin: 7rem auto 0;
+}
+
+/* Section 1 */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    height: 50vh;
+    /* border: 1px solid black; */
+}
+
+.section-1 h1 {
+    font-size: 54px;
+    text-shadow: 1px 1px 3px grey;
+    font-weight: 600;
+}
+
+.section-1-h1 {
+    color: #ffd726;
+    font-weight: 600;
+}
+
+.section-1 p {
+    font-size: 20px;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+}
+
+/* Section 2 */
+
+.section-2 {
+    display: flex;
+    height: 50vh;
+}
+
+.description {
+    margin-left: 2rem;
+    width: 50%;
+}
+
+.description h3 {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: #1E415B;
+}
+
+.description p {
+    color: #142d3f;
+}
+
+.card-customer {
+    width: 50%;
+}
+
+.customer {
+    margin: 3rem 0 1.5rem 5rem;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 8px grey;
+    border-radius: 8px;
+}
+
+.customer h4 {
+    font-weight: 500;
+}
+
+.customer h4 span {
+    font-weight: 700;
+}
+
+.rating {
+    margin: 2rem 0 0 8rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 8px grey;
+    border-radius: 8px;
+}
+
+.rating h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
